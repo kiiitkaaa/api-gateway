@@ -1,0 +1,7 @@
+downstream:
+  auth:
+    url: ${AUTH_SERVICE_URL_DOCKER:http://auth-service:8081}
+  user:
+    url: ${USER_SERVICE_URL_DOCKER:http://user-service:8080}
+  order:
+    url: ${ORDER_SERVICE_URL_DOCKER:http://order-service:8082}
