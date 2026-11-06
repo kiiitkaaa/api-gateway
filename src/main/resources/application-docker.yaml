@@ -5,3 +5,5 @@ downstream:
     url: ${USER_SERVICE_URL_DOCKER:http://user-service:8080}
   order:
     url: ${ORDER_SERVICE_URL_DOCKER:http://order-service:8082}
+  payment:
+    url: ${PAYMENT_SERVICE_URL_DOCKER:http://order-service:8083}
